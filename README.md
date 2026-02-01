@@ -59,4 +59,4 @@ Isso garante foco, contexto e separação natural por processo ou tela do sistem
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/taskpad-sei.git
+   [git clone https://github.com/ozeiasTI/SEInotas.git]
