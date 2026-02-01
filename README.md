@@ -41,6 +41,9 @@ Isso garante foco, contexto e separação natural por processo ou tela do sistem
 - 🔒 Não há coleta de dados pessoais
 - 🔓 Não exige login ou cadastro
 
+📄 **Política de Privacidade:**  
+👉 https://ozeiasti.github.io/SEInotas/politica-privacidade.html
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -51,3 +54,9 @@ Isso garante foco, contexto e separação natural por processo ou tela do sistem
 - Chrome Extensions API
 
 ---
+
+## 🚀 Instalação (Modo Desenvolvedor)
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/SEU_USUARIO/taskpad-sei.git
