@@ -1,0 +1,300 @@
+#sei-popup-ajuda {
+  position: fixed;
+  bottom: 60px;
+  right: 290px;
+  width: 550px;
+  max-height: 75vh;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 12px;
+  z-index: 999999;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sei-popup-ajuda h3 {
+  text-align: center;
+  margin-top: 0;
+  color: #1d641b;
+}
+
+#sei-popup-ajuda h4 {
+  margin-bottom: 4px;
+  color: #155724;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2px;
+}
+
+#sei-popup-ajuda ul, #sei-popup-ajuda ol {
+  padding-left: 18px;
+  margin: 4px 0 8px 0;
+}
+
+#sei-popup-ajuda table {
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+}
+
+#sei-popup-ajuda th, #sei-popup-ajuda td {
+  border: 1px solid #ccc;
+  padding: 2px 4px;
+  text-align: left;
+}
+
+#sei-popup-ajuda button {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  background: #93e89c;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+#sei-popup-ajuda button:hover {
+  background: #5da064;
+}
+
+
+#sei-popup-ajuda button:hover {
+  background: #5da064;
+}
+
+#sei-popup-concluidas {
+  position: fixed;
+  bottom: 60px;
+  right: 300px;
+  width: 280px;
+  max-height: 65vh;
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 12px;
+  padding: 10px;
+  z-index: 999999;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Cabeçalho */
+.popup-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+  color: #1d641b;
+}
+
+/* Card da tarefa */
+.popup-tarefa {
+  background: #f7f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 6px;
+  margin-bottom: 6px;
+}
+
+/* Título */
+.popup-tarefa-titulo {
+  font-weight: bold;
+  font-size: 10.5px;
+  margin-bottom: 2px;
+}
+
+/* Infos */
+.popup-tarefa-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+/* Botões */
+.popup-tarefa-botoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.popup-tarefa-botoes button {
+  font-size: 9px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #e0e0e0;
+}
+
+.popup-tarefa-botoes button:hover {
+  background: #cfd8dc;
+}
+
+
+#sei-taskpad-icone {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  width: 36px;
+  height: 36px;
+  background: #93e89c;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 999999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#sei-taskpad-icone:hover {
+  background: #5da064;
+}
+
+#sei-taskpad-container {
+  position: fixed;
+  top: auto;
+  left: auto;
+  bottom: 55px;
+  right: 25px;
+  width: 250px;
+  max-height: 70vh;
+  overflow-y: auto;
+  z-index: 999999;
+  background: #ffffffcc;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  backdrop-filter: blur(6px);
+}
+
+#sei-taskpad-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* fundo da barra */
+#sei-taskpad-container::-webkit-scrollbar-track {
+  background: #e4f8f9;
+  border-radius: 10px;
+}
+
+/* a "alça" que você arrasta */
+#sei-taskpad-container::-webkit-scrollbar-thumb {
+  background: #93e89c;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* hover na alça */
+#sei-taskpad-container::-webkit-scrollbar-thumb:hover {
+  background: #5da064;
+}
+
+#sei-taskpad-cabecalho {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #201a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sei-taskpad-cabecalho span {
+  color: #1d641b;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#sei-mover-taskpad {
+  font-size: 12.5px;
+  background: #eee;
+  cursor: move;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 6px;
+  color: #1d641b;
+}
+
+#sei-taskpad-botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.sei-tarefa {
+  padding: 5px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  transition: background 0.3s, border 0.3s;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+}
+
+.titulo-tarefa,
+.setor-tarefa {
+  width: 100%;
+  margin: 2px 0;
+  padding: 2.5px 5px;
+  font-size: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.titulo-tarefa:focus,
+.setor-tarefa:focus,
+.prioridade-tarefa:focus,
+.vencimento-tarefa:focus {
+  outline: none;
+}
+
+.prioridade-tarefa {
+  width: 100%;
+  margin: 2px 0;
+  padding: 2.5px 5px;
+  font-size: 9px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.vencimento-tarefa {
+  width: 35%;
+  margin: 2px 0;
+  padding: 2.5px 5px;
+  font-size: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+
+}
+
+.linha-tarefa {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+button {
+  padding: 2px 4px;
+  font-size: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #ddd;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #ccc;
+}

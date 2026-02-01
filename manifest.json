@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "js": [ "content.js" ],
+      "matches": [ "https://sei.ifro.edu.br/sei/*" ]
+   } ],
+   "description": "Checklist inteligente de tarefas para o Sistema SEI.",
+   "icons": {
+      "128": "logo.png",
+      "16": "logo.png",
+      "48": "logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyAlUaPsXemse5ph0ty31pJPyNRP1M86XasBsjgjrLzo+LH/R7L98St6gWCnfc+YOiadH4ZfuPh4k7ch9/25bIbMDeUswO3gOIxrxx1EHBnxy0ovOflTBzxZa0GXJPBOSqsCCkWc26FIK0k1Wu6/oLwHP4/hARlpmhcNwxmGcRYN0ZWQgXyoZJKMJEty1aR1geEtz6oIiqIGVnhZgZgJi3TQpHPalSFs/g/xlkYAAAS+AO9dkjs5GWLSPW8aIDHS9pxfyPezeedrOZW6XI+nyyPAUvINUNLMUN0oyVs9K3HsLsqAVtL4q6N9qVz9uP15n5BJxnHqcXXw+qW3OjtAY7QIDAQAB",
+   "manifest_version": 3,
+   "name": "SEI Notas",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0"
+}
