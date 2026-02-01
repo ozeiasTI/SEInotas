@@ -1,6 +1,6 @@
-# 🗂️ TaskPad SEI
+# 🗂️ SEI NOTAS
 
-**TaskPad SEI** é uma extensão para o Google Chrome que adiciona um bloco inteligente de tarefas diretamente nas páginas do **SEI – Sistema Eletrônico de Informações**, permitindo organizar demandas de forma prática, contextual e local.
+**SEI NOTAS** é uma extensão para o Google Chrome que adiciona um bloco inteligente de tarefas diretamente nas páginas do **SEI – Sistema Eletrônico de Informações**, permitindo organizar demandas de forma prática, contextual e local.
 
 A extensão foi pensada para servidores e usuários do SEI que precisam manter controle de atividades por processo, página ou contexto, sem depender de planilhas, papéis ou sistemas externos.
 
