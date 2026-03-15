@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - SEI Notas</title>
+    <style>
+        :root {
+            --bg: #f4f7f8;
+            --card: #ffffff;
+            --text: #1f2a2e;
+            --muted: #4e5d66;
+            --accent: #1d641b;
+            --line: #d7e1e5;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(180deg, #eef6f0 0%, var(--bg) 100%);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        header {
+            background: var(--accent);
+            color: #fff;
+            padding: 24px;
+        }
+
+        header h1 {
+            margin: 0 0 6px;
+            font-size: 1.7rem;
+        }
+
+        header p {
+            margin: 0;
+            opacity: 0.95;
+            font-size: 0.95rem;
+        }
+
+        main {
+            padding: 24px;
+        }
+
+        h2 {
+            margin-top: 26px;
+            margin-bottom: 8px;
+            color: var(--accent);
+            font-size: 1.2rem;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 4px;
+        }
+
+        p,
+        li {
+            color: var(--text);
+            font-size: 0.98rem;
+        }
+
+        ul {
+            margin-top: 8px;
+            padding-left: 20px;
+        }
+
+        .note {
+            margin-top: 14px;
+            padding: 12px;
+            border-left: 4px solid var(--accent);
+            background: #f2fbf2;
+            color: #23412b;
+            border-radius: 6px;
+        }
+
+        footer {
+            border-top: 1px solid var(--line);
+            padding: 16px 24px 22px;
+            color: var(--muted);
+            font-size: 0.9rem;
+            background: #fbfcfc;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 10px;
+            }
+
+            header,
+            main,
+            footer {
+                padding-left: 14px;
+                padding-right: 14px;
+            }
+
+            header h1 {
+                font-size: 1.35rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="container">
+        <header>
+            <h1>Política de Privacidade</h1>
+            <p>SEI Notas | Atualizada em 14 de março de 2026</p>
+        </header>
+
+        <main>
+            <p>
+                Esta Política de Privacidade explica como o SEI Notas trata os dados dos usuários.
+                O objetivo é apresentar, de forma simples e transparente, quais informações podem ser
+                acessadas, para que são usadas, com quem podem ser compartilhadas e quais são os seus direitos.
+            </p>
+
+            <h2>1. Escopo desta política</h2>
+            <p>
+                Esta política se aplica ao uso da extensão SEI Notas e a esta página informativa.
+                A extensão funciona em páginas do SEI e SIP configuradas no arquivo de manifesto,
+                para permitir o gerenciamento de tarefas do usuário.
+            </p>
+
+            <h2>2. Quais dados podem ser tratados</h2>
+            <p>Durante o uso da extensão, podem ser tratados os seguintes dados:</p>
+            <ul>
+                <li>Dados inseridos pelo próprio usuário nas tarefas (ex.: título, setor/processo, data de vencimento,
+                    prioridade e status).</li>
+                <li>Metadados de exportação/importação de tarefas (ex.: data/hora da exportação, identificador de
+                    exportação e user agent do navegador).</li>
+                <li>Informações técnicas mínimas para funcionamento da extensão (ex.: chave da página para organizar
+                    notas por ambiente).</li>
+            </ul>
+
+            <div class="note">
+                O SEI Notas não foi projetado para coletar dados sensíveis por padrão.
+                Recomendamos que o usuário evite inserir informações sensíveis nas anotações.
+            </div>
+
+            <h2>3. Como os dados são coletados</h2>
+            <ul>
+                <li>Diretamente do usuário, ao criar e editar tarefas.</li>
+                <li>Durante a importação de arquivo de notas enviado pelo próprio usuário.</li>
+                <li>Automaticamente pelo navegador apenas para viabilizar funções técnicas da extensão.</li>
+            </ul>
+
+            <h2>4. Finalidades de uso dos dados</h2>
+            <ul>
+                <li>Permitir a criação, visualização, atualização e exclusão de tarefas no painel da extensão.</li>
+                <li>Sincronizar tarefas entre sessões/dispositivos por meio dos recursos de armazenamento do navegador.
+                </li>
+                <li>Exibir notificações locais de tarefas vencidas.</li>
+                <li>Permitir exportação e importação de tarefas entre usuários/dispositivos.</li>
+                <li>Manter histórico de tarefas concluídas para organização pessoal do usuário.</li>
+            </ul>
+
+            <h2>5. Base legal (LGPD)</h2>
+            <p>
+                O tratamento de dados pessoais é realizado, principalmente, com base na execução de funcionalidades
+                solicitadas pelo usuário e no legítimo interesse para operação da extensão, sempre observando os
+                princípios da Lei Geral de Proteção de Dados (Lei nº 13.709/2018).
+            </p>
+
+            <h2>6. Cookies e tecnologias semelhantes</h2>
+            <p>
+                A extensão não utiliza cookies próprios para rastreamento comportamental. O funcionamento principal
+                ocorre por armazenamento local/sincronizado do navegador. Esta página pode utilizar apenas cookies
+                estritamente necessários ao funcionamento técnico do ambiente de hospedagem, quando aplicável.
+            </p>
+
+            <h2>7. Compartilhamento com terceiros</h2>
+            <p>Os dados não são vendidos. Pode haver compartilhamento apenas nas seguintes hipóteses:</p>
+            <ul>
+                <li>Com provedores de infraestrutura do navegador, estritamente para sincronização de dados (ex.:
+                    armazenamento em nuvem da conta do navegador, quando habilitado).</li>
+                <li>Quando o próprio usuário exporta e compartilha manualmente um arquivo de notas.</li>
+                <li>Por obrigação legal, ordem judicial ou solicitação de autoridade competente.</li>
+            </ul>
+
+            <h2>8. Armazenamento e retenção</h2>
+            <p>
+                As tarefas permanecem armazenadas até que o usuário as exclua manualmente, remova a extensão
+                ou limpe os dados do navegador/conta sincronizada. Arquivos exportados ficam sob responsabilidade
+                do usuário após o download.
+            </p>
+
+            <h2>9. Segurança da informação</h2>
+            <p>
+                São adotadas medidas técnicas razoáveis para reduzir risco de acesso não autorizado, alteração
+                indevida, perda ou destruição de dados. No entanto, nenhum ambiente digital é totalmente isento
+                de riscos, e o usuário também deve adotar boas práticas de segurança.
+            </p>
+
+            <h2>10. Direitos do titular de dados</h2>
+            <p>Nos termos da LGPD, o usuário pode solicitar, quando aplicável:</p>
+            <ul>
+                <li>Confirmação da existência de tratamento.</li>
+                <li>Acesso aos dados pessoais.</li>
+                <li>Correção de dados incompletos, inexatos ou desatualizados.</li>
+                <li>Anonimização, bloqueio ou eliminação de dados desnecessários.</li>
+                <li>Portabilidade dos dados, quando tecnicamente possível.</li>
+                <li>Informações sobre compartilhamento.</li>
+                <li>Revogação de consentimento, quando essa for a base legal aplicável.</li>
+            </ul>
+
+            <h2>11. Privacidade de menores</h2>
+            <p>
+                O SEI Notas não é direcionado a menores de 18 anos. Caso seja identificado tratamento indevido
+                de dados de menores, as medidas cabíveis serão adotadas para exclusão ou regularização.
+            </p>
+
+            <h2>12. Alterações nesta política</h2>
+            <p>
+                Esta política pode ser atualizada a qualquer momento para refletir melhorias na extensão,
+                exigências legais ou operacionais. A versão mais recente estará sempre disponível nesta página.
+            </p>
+
+            <h2>13. Contato</h2>
+            <p>
+                Para exercer seus direitos ou tirar dúvidas sobre privacidade e proteção de dados,
+                entre em contato com o responsável pelo projeto no canal oficial de suporte da extensão.
+            </p>
+        </main>
+
+        <footer>
+            Esta política foi elaborada com base nas funcionalidades atuais do SEI Notas
+            (armazenamento de tarefas, sincronização, notificações e importação/exportação).
+        </footer>
+    </article>
+</body>
+
+</html>
